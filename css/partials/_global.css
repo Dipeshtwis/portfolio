@@ -60,3 +60,16 @@ p.para{
     color: var(--text-color);
     font: normal 500 16px/ 25px var(--roboto);
 }
+
+button:focus,
+button:active
+button:hover
+.btn:active,
+.btn.active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+.title-h1{
+    font: normal bold 39px/ 40px var(--roboto);
+}
