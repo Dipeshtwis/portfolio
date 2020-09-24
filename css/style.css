@@ -13,14 +13,14 @@
     padding: 0 2rem 0 5rem;
 }
 
-.header_area .main-menu .navbar{
-    padding: 1rem 0 ;
+.logo {
+    height: 40px;
 }
 
 .header_area .main-menu .nav-item .nav-link{
     font: normal 500 15px/2px var(--roboto);
     text-transform: uppercase;
-    padding: 1.7rem;
+    padding: 1rem;
     color: var(--title-color);
 }
 
@@ -41,7 +41,7 @@
 /* Banner Area */ 
 
 .site-main .site-banner {
-    background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
+    background: url(../img/footer-bg.png) no-repeat 0% 50%;
 }
 
 .site-main .site-banner .site-title h3{

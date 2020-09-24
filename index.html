@@ -27,7 +27,7 @@
 	<header class="header_area">
         <div class="main-menu">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="logo"></a>
+                <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="logo" class="logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -39,22 +39,22 @@
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">about</a>
+                            <a class="nav-link" href="#about">about</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">skills</a>
+                            <a class="nav-link" href="#skill">skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">projects</a>
+                            <a class="nav-link" href="#project">projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">services</a>
+                            <a class="nav-link" href="#service">services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">contact</a>
+                            <a class="nav-link" href="#contact">contact</a>
                         </li>
                     </ul>
                 </div>
@@ -84,7 +84,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 banner-image">
-                        <img src="./img/banner/banner-image.png" alt="banner-img" class="img-fluid">
+                        <img src="./img/banner/deep.jpg" alt="banner-img" class="img-fluid rounded-circle">
                     </div>
                 </div>
             </div>
@@ -92,7 +92,7 @@
 
          <!--  =========== About Area ============  -->
 
-        <section class="about-area">
+        <section class="about-area" id="about">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
@@ -123,9 +123,108 @@
             </div>
         </section>
 
+        <!--  =============== Project Area ===============  -->
+
+        <section class="project-area" id="project">
+            <div class="container">
+                <div class="project-title pb-5">
+                    <h1 class="text-uppercase title-h1">Recently Done Project</h1>
+                    <h1 class="text-uppercase title-h1">Quality Work</h1>
+                </div>
+
+                <div class="button-group">
+                    <button type="button" class="active" id="btn1" data-filter="*">All</button>
+                    <button type="button" data-filter=".popular">Popular</button>
+                    <button type="button" data-filter=".latest">Latest</button>
+                    <button type="button" data-filter=".upcoming">Upcoming</button>
+                </div>
+
+                <div class="row grid">
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p1.png">
+                                    <img src="./img/portfolio/p1.png" alt="portfolio-1" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">NewsWeek Clone</h4>
+                                <span class="text-secondary">HTML, CSS, Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p2.png">
+                                    <img src="./img/portfolio/p2.png" alt="portfolio-2" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Electronic Gadget</h4>
+                                <span class="text-secondary">HTML, CSS, Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p3.png">
+                                    <img src="./img/portfolio/p3.png" alt="portfolio-3" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Social Connection</h4>
+                                <span class="text-secondary">Ruby, Rails</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p4.jpg">
+                                    <img src="./img/portfolio/p4.jpg" alt="portfolio-4" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Fourth Air</h4>
+                                <span class="text-secondary">Upcoming, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p5.jpg">
+                                    <img src="./img/portfolio/p5.jpg" alt="portfolio-5" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Muliple fown</h4>
+                                <span class="text-secondary">Upcoming, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p9.jpg">
+                                    <img src="./img/portfolio/p9.jpg" alt="portfolio-9" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Camera Lens</h4>
+                                <span class="text-secondary">Upcoming, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!--  ========== Start Services Area ==========  -->
 
-        <section class="services-area">
+        <section class="services-area" id="service">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center services-title">
@@ -144,11 +243,10 @@
                                     <img src="./img/services/s1.png" alt="Services-1">
                                 </div>
                                 <div class="card-body text-center">
-                                    <h5 class="card-title text-uppercase font-roboto">Wp developer</h5>
+                                    <h5 class="card-title text-uppercase font-roboto">WP developer</h5>
                                     <p class="card-text text-secondary">
-                                        Some quick example text to build on the card
-                                        title and make up
-                                        the bulk of the card's content.
+                                        Potential to make a Full Fledged website from 
+                                        scratch.
                                     </p>
                                 </div>
                             </div>
@@ -161,9 +259,7 @@
                                 <div class="card-body text-center">
                                     <h5 class="card-title text-uppercase font-roboto">ux/ui desing</h5>
                                     <p class="card-text text-secondary">
-                                        Some quick example text to build on the card
-                                        title and make up
-                                        the bulk of the card's content.
+                                        Design in the way to make Website attractive which makes more audience.
                                     </p>
                                 </div>
                             </div>
@@ -203,145 +299,6 @@
             </div>
         </section>
 
-        <!--  =============== Project Area ===============  -->
-
-        <section class="project-area">
-            <div class="container">
-                <div class="project-title pb-5">
-                    <h1 class="text-uppercase title-h1">Recently Done Project</h1>
-                    <h1 class="text-uppercase title-h1">Quality Work</h1>
-                </div>
-
-                <div class="button-group">
-                    <button type="button" class="active" id="btn1" data-filter="*">All</button>
-                    <button type="button" data-filter=".popular">Popular</button>
-                    <button type="button" data-filter=".latest">Latest</button>
-                    <button type="button" data-filter=".following">Following</button>
-                    <button type="button" data-filter=".upcoming">Upcoming</button>
-                </div>
-
-                <div class="row grid">
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
-                        <div class="our-project">
-                            <div class="img">
-                                <a class="test-popup-link" href="./img/portfolio/p1.jpg">
-                                    <img src="./img/portfolio/p1.jpg" alt="portfolio-1" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase">Minimul Desing</h4>
-                                <span class="text-secondary">Latest, Portfolio</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
-                        <div class="our-project">
-                            <div class="img">
-                                <a class="test-popup-link" href="./img/portfolio/p2.jpg">
-                                    <img src="./img/portfolio/p2.jpg" alt="portfolio-2" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase">Paint Wall</h4>
-                                <span class="text-secondary">Popular, Portfolio</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
-                        <div class="our-project">
-                            <div class="img">
-                                <a class="test-popup-link" href="./img/portfolio/p3.jpg">
-                                    <img src="./img/portfolio/p3.jpg" alt="portfolio-3" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase">Female light</h4>
-                                <span class="text-secondary">Popular, Portfolio</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
-                        <div class="our-project">
-                            <div class="img">
-                                <a class="test-popup-link" href="./img/portfolio/p4.jpg">
-                                    <img src="./img/portfolio/p4.jpg" alt="portfolio-4" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase">Fourth Air</h4>
-                                <span class="text-secondary">Upcoming, Portfolio</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
-                        <div class="our-project">
-                            <div class="img">
-                                <a class="test-popup-link" href="./img/portfolio/p5.jpg">
-                                    <img src="./img/portfolio/p5.jpg" alt="portfolio-5" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase">Muliple fown</h4>
-                                <span class="text-secondary">Upcoming, Portfolio</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
-                        <div class="our-project">
-                            <div class="img">
-                                <a class="test-popup-link" href="./img/portfolio/p6.jpg">
-                                    <img src="./img/portfolio/p6.jpg" alt="portfolio-6" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase">Together sign</h4>
-                                <span class="text-secondary">Following, Portfolio</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
-                        <div class="our-project">
-                            <div class="img">
-                                <a class="test-popup-link" href="./img/portfolio/p7.jpg">
-                                    <img src="./img/portfolio/p7.jpg" alt="portfolio-7" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase">Green Heaven</h4>
-                                <span class="text-secondary">Following, Portfolio</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
-                        <div class="our-project">
-                            <div class="img">
-                                <a class="test-popup-link" href="./img/portfolio/p8.jpg">
-                                    <img src="./img/portfolio/p8.jpg" alt="portfolio-8" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase">Fly Male</h4>
-                                <span class="text-secondary">Following, Portfolio</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
-                        <div class="our-project">
-                            <div class="img">
-                                <a class="test-popup-link" href="./img/portfolio/p9.jpg">
-                                    <img src="./img/portfolio/p9.jpg" alt="portfolio-9" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase">Camera Lens</h4>
-                                <span class="text-secondary">Upcoming, Portfolio</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!--  ======================== About Me Area ==============================  -->
 
         <section class="about-area">
@@ -351,8 +308,7 @@
                         <div class="about-title">
                             <h1 class="text-uppercase title-h1">Collaborator Say about me</h1>
                             <p class="para">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, deleniti
-                                recusandae. Esse incidunt rem repellendus ab voluptates maxime? Nemo, numquam!
+                                I worked on many projects with different developer across the world while taking graduation of Full Stack Developer at Microverse and I got some valuable feedback from them.
                             </p>
                         </div>
                     </div>
@@ -363,42 +319,47 @@
                 <div class="owl-carousel owl-theme">
                     <div class="client row">
                         <div class="col-lg-4 col-md-12 client-img">
-                            <img src="./img/testimonials/t1.jpg" alt="img1" class="img-fluid">
+                            <img src="./img/testimonials/t3.jpg" alt="img1" class="img-fluid">
                         </div>
                         <div class="col-lg-8 col-md-12 about-client">
                             <h4 class="text-uppercase">Ahmad Chata</h4>
-                            <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
-                                consequuntur ratione, obcaecati corrupti deserunt.</p>
+                            <p class="para">Oh! Dipesh, when I hear that name, what comes to mind is intelligence, smartness, reliability and humor. He has good work ethics and whenever I have to work with him, I just know we’ll breeze through that project, he knows a lot yet humble, I’ll recommend him anytime, any day.</p>
                         </div>
                     </div>
                     <div class="client row">
                         <div class="col-lg-4 col-md-12 client-img">
-                            <img src="./img/testimonials/t2.jpg" alt="img2" class="img-fluid">
+                            <img src="./img/testimonials/t4.jpg" alt="img2" class="img-fluid">
                         </div>
                         <div class="col-lg-8 col-md-12 about-client">
                             <h4 class="text-uppercase">Rida Elbahtouri</h4>
-                            <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
-                                consequuntur ratione, obcaecati corrupti deserunt.</p>
+                            <p class="para">Dipesh kumar is a very valuable team member and I was lucky to have him as collaborative partner. He's a hard-worker, with strong problem-solving and technical skills. Dipesh is smart, very accommodating and also very professional in his dealings.</p>
                         </div>
                     </div>
                     <div class="client row">
                         <div class="col-lg-4 col-md-12 client-img">
-                            <img src="./img/testimonials/t1.jpg" alt="img1" class="img-fluid">
+                            <img src="./img/testimonials/t1.jpg" alt="img3" class="img-fluid">
                         </div>
                         <div class="col-lg-8 col-md-12 about-client">
-                            <h4 class="text-uppercase">John Martin</h4>
-                            <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
-                                consequuntur ratione, obcaecati corrupti deserunt.</p>
+                            <h4 class="text-uppercase">Prakash Anand</h4>
+                            <p class="para">Dipesh is more tasks oriented, a good web developer with enough potential to develop a full-fledged web application from scratch, and also teamwork is one of the assets which makes him more successful in the recent technical endeavors.</p>
                         </div>
                     </div>
                     <div class="client row">
                         <div class="col-lg-4 col-md-12 client-img">
-                            <img src="./img/testimonials/t2.jpg" alt="img2" class="img-fluid">
+                            <img src="./img/testimonials/t2.jpg" alt="img4" class="img-fluid">
                         </div>
                         <div class="col-lg-8 col-md-12 about-client">
-                            <h4 class="text-uppercase">Mac Hill</h4>
-                            <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
-                                consequuntur ratione, obcaecati corrupti deserunt.</p>
+                            <h4 class="text-uppercase">Parag Thakur</h4>
+                            <p class="para">I'm amazed by Dipesh competence in full stack development and his logical ability to solve complex programme, a skill that makes him stand exclusive in a crowd. We've worked together in many projects and what I appreciate most is how reliable and responsive he is. </p>
+                        </div>
+                    </div>
+                    <div class="client row">
+                        <div class="col-lg-4 col-md-12 client-img">
+                            <img src="./img/testimonials/t5.jpg" alt="img5" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-12 about-client">
+                            <h4 class="text-uppercase">Vishal Kumar Pandey</h4>
+                            <p class="para">It's rare that you come across standout talent like Dipesh. "Ridiculously efficient" comes to my mind when I think about him. I had the pleasure of working with Dipesh on several full stack web application projects. Dipesh's ability to juggle multiple projects made a dramatic difference in the result.</p>
                         </div>
                     </div>
                 </div>
@@ -407,7 +368,7 @@
         </section>
 
         <!--  ============ Subscribe me Area ==============  -->
-        <section class="subscribe-us-area">
+        <section class="subscribe-us-area" id="contact">
             <div class="container subscribe">
                 <div class="row">
                     <div class="col-lg-12 text-center subscribe-title">
@@ -440,14 +401,14 @@
         <div class="container">
             <div class="">
                 <div class="site-logo text-center py-4">
-                    <a href="#"><img src="./img/logo.png" alt="logo"></a>
+                    <a href="#"><img src="./img/logo.png" alt="logo" class="logo"></a>
                 </div>
                 <div class="social text-center">
                     <h5 class="text-uppercase">Follow me</h5>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/dipeshtwis/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Dipeshtwis"><i class="fab fa-github"></i></a>
+                    <a href="https://www.youtube.com/channel/UCF9BRgd-BjSDLgY_8waCBVA"><i class="fab fa-youtube"></i></a>
+                    <a href="https://twitter.com/97deepeshkumar"><i class="fab fa-twitter"></i></a>
                 </div>
                 <div class="copyrights text-center">
                     <p class="para">
