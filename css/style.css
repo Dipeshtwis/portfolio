@@ -14,24 +14,27 @@
 }
 
 .logo {
-    height: 40px;
+    height: 50px;
 }
 
-.header_area .main-menu .nav-item .nav-link{
+.header_area .main-menu .nav-item .nav-link,
+.site-main .skill-area .nav-item .nav-link {
     font: normal 500 15px/2px var(--roboto);
     text-transform: uppercase;
     padding: 1rem;
     color: var(--title-color);
 }
 
-.header_area .main-menu .navbar-nav .active a{
+.header_area .main-menu .navbar-nav .active a,
+.site-main .skill-area .nav-pills .active{
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
-.header_area .main-menu .navbar-nav a:hover{
+.header_area .main-menu .navbar-nav a:hover,
+.site-main .skill-area .nav-pills a:hover{
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -40,9 +43,9 @@
 
 /* Banner Area */ 
 
-.site-main .site-banner {
+/*.site-main .site-banner {
     background: url(../img/footer-bg.png) no-repeat 0% 50%;
-}
+}*/
 
 .site-main .site-banner .site-title h3{
     padding-top: 35%;
@@ -91,7 +94,7 @@
 /* Services Area */ 
 
 .site-main .services-area{
-    padding: 7rem 2rem;
+    padding: 4rem 2rem;
 }
 
 .site-main .services-area .services-title{
@@ -106,7 +109,7 @@
     background: rgba(248, 252, 253, 0.973);
     padding: 2rem 0;
     width: 16rem;
-    margin: 5rem .5rem;
+    margin: 3rem .5rem;
     transition: box-shadow .7s ease;
 }
 
@@ -230,7 +233,7 @@ footer.footer-area .social h5{
 footer.footer-area .social a > i{
     font-size:22px;
     padding: 2rem;
-    color: var(--border-color);
+    color: var(--text-color);
 }
 
 footer.footer-area .social a:hover > i{
