@@ -13,6 +13,10 @@
     padding: 0 2rem 0 5rem;
 }
 
+.header_area .main-menu .navbar{
+    padding: 1rem 20rem ;
+}
+
 .logo {
     height: 50px;
 }
@@ -94,7 +98,7 @@
 /* Services Area */ 
 
 .site-main .services-area{
-    padding: 4rem 2rem;
+    padding: 3rem 2rem;
 }
 
 .site-main .services-area .services-title{
@@ -136,6 +140,15 @@
 
 .site-main .project-area .grid .our-project > .title h4{
     font: normal 700 25px/12px var(--roboto);
+}
+
+.site-main .project-area .grid .our-project > .title span a {
+  color: var(--text-color);
+}
+
+.site-main .project-area .grid .our-project > .title span a:hover{
+    transition: all .7s ease-in-out;
+    color: var(--title-color);
 }
 
 .site-main .project-area .grid .our-project .img a:hover img{

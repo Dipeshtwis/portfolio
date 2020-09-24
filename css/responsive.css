@@ -62,6 +62,9 @@
         width: 20rem;
         margin: 5%;
     }
+    footer.footer-area {
+        padding: 4rem 0;
+    }
 }
 
 
