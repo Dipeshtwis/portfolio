@@ -6,7 +6,7 @@
 
 /* import global styling */ 
 @import url(./partials/_global.css);
-
+@import "compass/css3";
 /* start navigation */ 
 
 .header_area .main-menu .navbar .navbar-brand{
@@ -47,9 +47,24 @@
 
 /* Banner Area */ 
 
-/*.site-main .site-banner {
-    background: url(../img/footer-bg.png) no-repeat 0% 50%;
-}*/
+@keyframes filling {
+  from{
+    background-position: center 25%;
+  }
+  to {
+    background-position: center 50%;
+  }
+}
+
+.container-text {
+  background-image:  url(https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  color:  #FFFFFF;
+  font-size: 5rem;
+  animation: filling 3s ease forwards;
+}
+
 
 .site-main .site-banner .site-title h3{
     padding-top: 35%;
@@ -95,30 +110,12 @@
     padding: .4rem 0;
 }
 
-/* Services Area */ 
 
-.site-main .services-area{
-    padding: 3rem 2rem;
-}
+/* skill Area */
 
-.site-main .services-area .services-title{
-    padding: 0 14rem;
-}
-
-.site-main .services-area .services-title h1{
-    font-size: 35px;
-}
-
-.site-main > .services-area .services{
-    background: rgba(248, 252, 253, 0.973);
-    padding: 2rem 0;
-    width: 16rem;
-    margin: 3rem .5rem;
-    transition: box-shadow .7s ease;
-}
-
-.site-main > .services-area .services:hover{
-    box-shadow: var(--box-shadow);
+.site-main .skill-area .tab-content .tab-pane {
+    padding: 1rem;
+  text-align: center;
 }
 
 /* Project Area */ 
@@ -153,6 +150,32 @@
 
 .site-main .project-area .grid .our-project .img a:hover img{
     filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+/* Services Area */ 
+
+.site-main .services-area{
+    padding: 3rem 2rem;
+}
+
+.site-main .services-area .services-title{
+    padding: 0 14rem;
+}
+
+.site-main .services-area .services-title h1{
+    font-size: 35px;
+}
+
+.site-main > .services-area .services{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 3rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main > .services-area .services:hover{
+    box-shadow: var(--box-shadow);
 }
 
 /* About Me */ 
@@ -193,43 +216,6 @@
     background: var(--primary-color);
     width: 12px;
     height: 12px;
-}
-
-/* Subscribe me */ 
-
-.site-main .subscribe-us-area .subscribe{
-    background: url(../img/subscribe-bg.png) no-repeat;
-    padding: 10rem 0;
-    margin: 3rem auto;
-}
-
-.site-main .subscribe-us-area .subscribe .subscribe-title h4{
-    font: normal 700 30px/ 30px var(--roboto);
-    color: whitesmoke;
-}
-
-.site-main .subscribe-us-area .subscribe .subscribe-title p{
-    color: whitesmoke;
-    padding: 1rem 4rem;
-}
-
-.site-main .subscribe-us-area .subscribe form .input-textbox input{
-    width: 400px;
-    padding: 1.5rem 1rem;
-    border: 1px solid whitesmoke;
-    background: transparent;
-    color: white;
-    font: normal 500 17px/20px var(--roboto);
-}
-
-.site-main .subscribe-us-area .subscribe form .input-textbox input::placeholder{
-    color: whitesmoke;
-}
-
-.site-main .subscribe-us-area .subscribe form .btn-submit button{
-    background: whitesmoke;
-    color: #000;
-    padding: .7rem 2rem;
 }
 
 /* Footer Area */ 

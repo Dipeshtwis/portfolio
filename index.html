@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
     <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.min.css">
 
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" href="./css/style.css">
 
 	<!--  Responsive css file  -->
     <link rel="stylesheet" href="./css/responsive.css">
@@ -73,13 +73,13 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12 site-title">
                         <h3 class="title-text">Hey</h3>
-                        <h1 class="title-text">I'm Dipesh</h1>
+                        <div class="title-text container-text">I'm Dipesh</div>
                         <h4 class="title-text text-uppercase">Full Stack Web Developer</h4>
                         <div class="site-buttons">
                             <div class="d-flex flex-row flex-wrap">
-                                <button type="button" class="btn button primary-button mr-4 text-uppercase">hire
-                                    me</button>
-                                <button type="button" class="btn button secondary-button text-uppercase" >Get cv</button>
+                                <a href="mailto:deepesh.97kumar@gmail.com?" class="btn button primary-button mr-4 text-uppercase">hire
+                                    me</a>
+                                <a href="https://drive.google.com/file/d/1US9ywVT-uxn7cZeSG95san2Of_h9bvOB/view?usp=sharing" class="btn button secondary-button text-uppercase" >Get cv</a>
                             </div>
                         </div>
                     </div>
@@ -93,7 +93,7 @@
          <!--  =========== About Area ============  -->
 
         <section class="about-area" id="about">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                         <div class="about-image">
@@ -108,16 +108,13 @@
                         </h2>
                         <div class="paragraph py-4 w-75">
                             <p class="para">
-                                Full-stack web developer with Rails along with the knowledge of Data Structure and Algorithms. In my spare time, I enjoy playing chess and other games.
+                                Whether figuring out a tricky problem or crafting delightful user experience, programming satisfies my desire for both constant learning and ongoing refinement.
                             </p>
                             <p class="para">
-                                It is a long established fact that a reader will be distracted by the readable content
-                                of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
-                                more-or-less normal distribution of letters, as opposed to using 'Content here, content
-                                here
+                               As a full-stack web developer, I am continuing to learn and work, while expanding my fluency in multiple programming languages. Outside of my tech life, I play chess, Pubg, and enjoy traveling to different places. 
                             </p>
                         </div>
-                        <button type="button" class="btn button primary-button text-uppercase">Download cv</button>
+                        <a href="https://drive.google.com/file/d/1US9ywVT-uxn7cZeSG95san2Of_h9bvOB/view?usp=sharing" class="btn button primary-button text-uppercase">Download cv</a>
                     </div>
                 </div>
             </div>
@@ -125,8 +122,8 @@
 
         <!--  =============== Skill Area ===============  -->
 
-        <section class="skill-area py-5" id="skill">
-        <div class="container">
+    <section class="skill-area py-5" id="skill">
+     <div class="container">
   <h1 class="text-uppercase title-h1">Relevant Skills</h1>
   <br>
   <!-- Nav pills -->
@@ -144,7 +141,10 @@
       <a class="nav-link" data-toggle="pill" href="#menu3">services</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" data-toggle="pill" href="#menu4">More Languages</a>
+      <a class="nav-link" data-toggle="pill" href="#menu4">Testing</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="pill" href="#menu5">More Languages</a>
     </li>
   </ul>
 
@@ -210,6 +210,21 @@
   </table>
     </div>
     <div id="menu4" class="container tab-pane fade"><br>
+       <table class="table table-striped table-bordered">
+    <thead class="thead-dark">
+      <tr>
+        <th>Testing</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Rspec</td></tr>
+      <tr><td>Capybara</td></tr>
+      <tr><td>Shoulda matchers</td></tr>
+      <tr><td>Minitest</td></tr>
+    </tbody>
+  </table>
+    </div>
+    <div id="menu5" class="container tab-pane fade"><br>
        <table class="table table-striped table-bordered">
     <thead class="thead-dark">
       <tr>
@@ -337,13 +352,13 @@
             </div>
         </section>
 
-        <!--  ========== Start Services Area ==========  -->
+    <!--  ========== Start Services Area ==========  -->
 
         <section class="services-area" id="service">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center services-title">
-                        <h1 class="text-uppercase title-text">Services Offers</h1>
+                        <h1 class="text-uppercase title-text">Services Offered</h1>
                         <p class="para">
                             Below is the Services provided by Me.
                         </p>
@@ -403,7 +418,7 @@
                 <div class="row text-center">
                     <div class="col-12">
                         <div class="about-title">
-                            <h1 class="text-uppercase title-h1">Collaborator Say about me</h1>
+                            <h1 class="text-uppercase title-h1">What Collaborators Say about me</h1>
                             <p class="para">
                                 I worked on many projects with different developer across the world while taking graduation of Full Stack Developer at Microverse and I got some valuable feedback from them.
                             </p>
@@ -463,34 +478,6 @@
             </div>
 
         </section>
-
-        <!--  ============ Subscribe me Area ==============  -->
-        <section class="subscribe-us-area" id="contact">
-            <div class="container subscribe">
-                <div class="row">
-                    <div class="col-lg-12 text-center subscribe-title">
-                        <h4 class="text-uppercase">Get Update From anywhere</h4>
-                        <p class="para d-sm-hidden">Put your email here.</p>
-                    </div>
-                </div>
-                <div class="d-sm-flex justify-content-center">
-                    <form class="w-50">
-                        <div class="row d-flex flex-row flex-wrap">
-                            <div class="col input-textbox">
-                                <input type="text" id="txtemail" class="form-control" placeholder="Email">
-                            </div>
-                            <div class="col">
-                                <div class="btn-submit">
-                                    <button type="submit" class="btn btn-success float-right">Subscribe</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>
-        
-
     </main>
 
     <footer class="footer-area">

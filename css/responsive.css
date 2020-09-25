@@ -4,11 +4,8 @@
 /* if the viewport is equal to 340px or less than that */ 
 @media only screen and (max-width: 340px){
     .header_area .main-menu .navbar,
-    .header_area .main-menu .navbar .navbar-brand,
-    .site-main .subscribe-us-area .subscribe .subscribe-title,
-    .site-main .subscribe-us-area .subscribe .subscribe-title p, h4,
-    .site-main .services-area,
-    .site-main .subscribe-us-area .subscribe
+    .header_area .main-menu .navbar .navbar-brand, h4,
+    .site-main .services-area
     {
         padding: 2%;
         margin: 0%;
@@ -18,8 +15,8 @@
         font-size: 41px;
     }
 
-    .site-main .subscribe-us-area .subscribe form .input-textbox input{
-        width: 15rem    !important;
+    .site-main .project-area .button-group button + button{
+        padding-left: 0.5rem;
     }
 
     .site-main > .services-area .services{
@@ -54,14 +51,14 @@
         font: normal 500 18px/40px var(--roboto);
     }
 
+    .site-main .project-area .button-group button + button{
+        padding-left: 1rem;
+    }
+
     .site-main .about-area .about-title p{
         padding: 0%;
     }
 
-    .site-main .subscribe-us-area .subscribe form .input-textbox input{
-        width: 20rem;
-        margin: 5%;
-    }
     footer.footer-area {
         padding: 4rem 0;
     }
