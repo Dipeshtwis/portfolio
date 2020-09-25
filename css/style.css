@@ -52,12 +52,12 @@
     background-position: center 25%;
   }
   to {
-    background-position: center 50%;
+    background-position: center 65%;
   }
 }
 
 .container-text {
-  background-image:  url(https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg);
+  background-image:  url(../img/pexel1.jpg);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   color:  #FFFFFF;
