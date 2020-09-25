@@ -62,6 +62,11 @@
     footer.footer-area {
         padding: 4rem 0;
     }
+
+    .site-main .services-area{
+        padding:2%;
+        margin: 0;
+    }
 }
 
 
