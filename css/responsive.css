@@ -23,6 +23,10 @@
         width: 13rem;
     }
 
+    .stack{
+        font: normal 18px/ 30px var(--roboto);
+    }
+
 }
 
 
@@ -31,6 +35,11 @@
     .site-main .about-area .about-title h2 > span{
         font-size: 31px;
         letter-spacing: 10px;
+    }
+
+    .stack{
+        font: normal bold 20px/ 30px var(--roboto);
+        margin-top: 1.5rem;
     }
 
     .header_area .main-menu .navbar .navbar-brand{
@@ -76,6 +85,10 @@
         padding:2%;
         margin: 0;
     }
+
+    .site-main .site-banner .site-title h4{
+       font-size: 1.2rem !important;
+    }
 }
 
 
@@ -86,6 +99,9 @@
         padding: 1rem;
     }
 
+    .site-main .site-banner .site-title h4{
+  font-size: 1.5rem;
+}
     .container{
         max-width: 90%;
     }
