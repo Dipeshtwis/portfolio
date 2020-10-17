@@ -76,6 +76,10 @@ html, body{
   }
 }
 
+.soco {
+  border-radius: 50%;
+}
+
 .container-text {
   background-image:  url(../img/pexel1.jpg);
   -webkit-text-fill-color: transparent;
@@ -175,7 +179,7 @@ html, body{
 /* Services Area */ 
 
 .site-main .services-area {
-  padding: 3rem 2rem;
+  padding: 0 2rem 2rem 2rem;
 }
 
 .site-main .services-area .services-title {
@@ -316,15 +320,20 @@ footer.footer-area .social a:hover > i {
 
 /* Buttons */ 
 
-.button{
-    padding: .8rem 2.2rem;
+.button,
+.soco{ 
     font: normal 500 16px/20px var(--roboto);
     position: relative;
     border: 3px solid transparent;
-    border-radius: 4px;
 }
 
-.button.primary-button{
+.button {
+  padding: .8rem 2.2rem;
+  border-radius: 4px;
+}
+
+.button.primary-button,
+.soco.primary-soco{
     background: var(--gradient-color);
     background-clip: padding-box;
     color: whitesmoke;
@@ -332,7 +341,8 @@ footer.footer-area .social a:hover > i {
     box-shadow: var(--box-shadow);
 }
 
-.button.primary-button:hover{
+.button.primary-button:hover,
+.soco.primary-soco:hover{
     background: whitesmoke;
     background-clip: padding-box;
     color: black;
@@ -348,13 +358,15 @@ footer.footer-area .social a:hover > i {
     border-radius: 4px;
 }
 
-.button.secondary-button{
+.button.secondary-button,
+.soco.secondary-soco{
     background: white;
     background-clip: padding-box;
     transition: background .6s ease;
 }
 
-.button.secondary-button:hover{
+.button.secondary-button:hover,
+.soco.secondary-soco:hover{
     background: var(--gradient-color);
     color: whitesmoke;
     box-shadow: var(--box-shadow);
@@ -391,5 +403,21 @@ button:hover
     box-shadow: var(--box-shadow);
     z-index: 999;
     transition: background 1s ease;
+}
+
+.soco{
+    padding: .6rem;
+    margin-right: .5rem;
+    border-radius: 50%;
+}
+
+.soco.primary-soco::after, .soco.secondary-soco::after{
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px;  right: -2px;
+    background: var(--gradient-color);
+    content: ' ';
+    z-index: -1;
+    border-radius: 10px;
 }
 
