@@ -37,6 +37,12 @@
         letter-spacing: 10px;
     }
 
+    .site-main > .services-area .services {
+       padding: 3rem 1rem;
+       width: auto;
+       margin-bottom: 2rem;
+    }
+
     .stack{
         font: normal bold 20px/ 30px var(--roboto);
         margin-top: 1.5rem;
