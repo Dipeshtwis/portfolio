@@ -1,11 +1,11 @@
 
-
-
 /* if the viewport is equal to 340px or less than that */ 
 @media only screen and (max-width: 340px){
     .header_area .main-menu .navbar,
     .header_area .main-menu .navbar .navbar-brand, h4,
-    .site-main .services-area
+    .site-main .subscribe-us-area .subscribe .subscribe-title,
+    .site-main .subscribe-us-area .subscribe .subscribe-title p, h4,
+    .site-main .services-area,
     {
         padding: 2%;
         margin: 0%;
@@ -33,6 +33,10 @@
         letter-spacing: 10px;
     }
 
+    .header_area .main-menu .navbar .navbar-brand{
+        padding: 0;
+    }
+
     .site-main .brand-area .experience-area .years-area{
         padding-left: 1%;
         width: 49%;
@@ -57,6 +61,11 @@
 
     .site-main .about-area .about-title p{
         padding: 0%;
+    }
+
+    form {
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
     footer.footer-area {
