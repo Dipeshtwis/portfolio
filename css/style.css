@@ -505,3 +505,9 @@ button:hover
 .fo {
   font-size: 2rem;
 }
+
+.stack-style {
+  padding: .5rem;
+  background-color: #b5b5b3;
+  border-radius: 2rem;
+}
