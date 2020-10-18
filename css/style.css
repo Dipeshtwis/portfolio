@@ -26,6 +26,26 @@ html, body{
     --roboto: 'Roboto', cursive;
 } 
 
+/* Scroll bar */
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+}
+
+.progress-container {
+  height: .3rem;
+  background: white;
+}
+
+.progress-bar {
+  height: .3rem;
+  background: var(--gradient-color);
+  width: 0%;
+}
+
 /* start navigation */ 
 
 
@@ -439,4 +459,3 @@ button:hover
     z-index: -1;
     border-radius: 10px;
 }
-
