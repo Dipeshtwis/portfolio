@@ -279,67 +279,7 @@ html, body{
   height: 12px;
 }
 
-/* Subscribe me */ 
-
-.site-main .subscribe-us-area .subscribe{
-  background: -webkit-gradient(linear,left top,right top,from(#777bf8),color-stop(200%,#68d4f8));
-  background: linear-gradient(90deg,#777bf8,#68d4f8 200%);
-  padding: 2rem 0;
-  margin: 3rem auto;
-}
-
-.custom-button {
-  color: #fff;
-background: #6772e5;
-}
-
-
-.site-main .subscribe-us-area .subscribe .subscribe-title h4{
-    font: normal 700 30px/ 30px var(--roboto);
-    color: whitesmoke;
-}
-
-.site-main .subscribe-us-area .subscribe .subscribe-title .form-title:after{
- content: " ";
-display: block;
-width: 200px;
-margin: 0 auto;
-padding-bottom: 8px;
-border-bottom: 2px solid #0e648c;
-}
-
-.site-main .subscribe-us-area .subscribe .subscribe-title p{
-    color: whitesmoke;
-    padding: 0 4rem;
-}
-
-.site-main .subscribe-us-area .subscribe .subscribe-title p:after{
-  content: " ";
-  border-bottom-style: dotted;
-  border-bottom-width:2px;
-  display:block;
-  width:50px;
-  margin: 0 auto;
-}
-
-.site-main .subscribe-us-area .subscribe form .input-textbox input{
-    width: 400px;
-    padding: 1.5rem 1rem;
-    border: 1px solid whitesmoke;
-    background: transparent;
-    color: white;
-    font: normal 500 17px/20px var(--roboto);
-}
-
-.site-main .subscribe-us-area .subscribe form .input-textbox input::placeholder{
-    color: whitesmoke;
-}
-
-.site-main .subscribe-us-area .subscribe form .btn-submit button{
-    background: whitesmoke;
-    color: #000;
-    padding: .7rem 2rem;
-}
+/* Contact me */
 
 /* Footer Area */ 
 

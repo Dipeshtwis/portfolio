@@ -10,6 +10,7 @@
 
   gtag('config', 'UA-179032684-1');
 </script>
+
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>D-portfolio</title>
@@ -56,10 +57,10 @@
                             <a class="nav-link" href="#about">about</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#skill">skills</a>
+                            <a class="nav-link" href="#project">projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#project">projects</a>
+                            <a class="nav-link" href="#skill">skills</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#service">services</a>
@@ -528,38 +529,13 @@
 
         </section>
 
-        <!--  ========================== Subscribe me Area ============================  -->
-        <section class="subscribe-us-area" id="contact">
-            <div class="container subscribe">
-                <div class="row">
-                    <div class="col-lg-12 text-center subscribe-title">
-                        <h4 class="form-title text-uppercase">Drop me a line</h4>
-                        <p class="para">I'd love to hear from you</p>
-                    </div>
-                </div>
-                <div class="d-sm-flex justify-content-center">
-                
-                <form target= "_blank" action="https://formspree.io/f/mpzopeqv" method="POST" >
-                  <div class="form-group">
-                    <label for="nme">Your name:</label>
-                    <input type="text" name="name" class="form-control" id="nme">
-                  </div>
-                  <div class="form-group">
-                    <label for="em">Your email:</label>
-                    <input type="text" class="form-control" name="_replyto" id="em" placeholder="name@example.com">
-                  </div>
-                  <div class="form-group">
-                    <label for="msg">Your message</label>
-                    <textarea class="form-control" id ="msg" name="message"></textarea>
-                  </div>
-                  <button onclick="window.location.href = 'https://deeptwist.tk';" type="submit" class="btn custom-button">Send</button>
-                </form>
-                </div>
-            </div>
-        </section>
+        <!--  ========= Contact me Area ============  -->
+       
     </main>
 
-    <footer class="footer-area">
+<!--  =========== Footer Area ===========  -->
+
+    <footer class="footer-area" id="contact">
         <div class="container">
             <div class="">
                 <div class="site-logo text-center py-4">
@@ -600,6 +576,50 @@
 
     <!--  custom js file  -->
     <script src="./js/main.js"></script>
+
+    <script src="https://formspree.io/js/formbutton-v1.0.0.min.js" defer></script>
+    <script>
+
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments);};
+
+  /* customize formbutton here*/     
+  formbutton("create", {
+    action: "https://formspree.io/f/mpzopeqv",
+    title: "Let's Connect!",
+    fields: [
+      { 
+        type: "text", 
+        label: "Name:", 
+        name: "name",
+        required: true,
+        placeholder: "you've been known by .."
+      },
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "_replyto",
+        required: true,
+        placeholder: "your@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "What's on your mind?",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      fontFamily: "'Roboto', cursive",
+      title: {
+        background: "linear-gradient(90deg, #4458dc 0%, #854fee 100%)",
+      },
+      button: {
+        background: "#4458dc",
+      }
+    },
+  });
+</script>
 
 </body>
 </html>
