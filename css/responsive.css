@@ -29,6 +29,13 @@
 
 }
 
+@media only screen and (max-width: 432px){
+  .stack-style {
+     font-size: 0.8rem;
+     padding: .2rem;
+   }
+}
+
 
 /* if the viewport is equal to 340px or less than that */ 
 @media only screen and (max-width: 792px){
@@ -43,6 +50,10 @@
        margin-bottom: 2rem;
     }
 
+    .flip-card {
+       height: 318px; 
+    }
+    
     .stack{
         font: normal bold 20px/ 30px var(--roboto);
         margin-top: 1.5rem;

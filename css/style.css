@@ -299,9 +299,27 @@ background: #6772e5;
     color: whitesmoke;
 }
 
+.site-main .subscribe-us-area .subscribe .subscribe-title .form-title:after{
+ content: " ";
+display: block;
+width: 200px;
+margin: 0 auto;
+padding-bottom: 8px;
+border-bottom: 2px solid #0e648c;
+}
+
 .site-main .subscribe-us-area .subscribe .subscribe-title p{
     color: whitesmoke;
-    padding: 1rem 4rem;
+    padding: 0 4rem;
+}
+
+.site-main .subscribe-us-area .subscribe .subscribe-title p:after{
+  content: " ";
+  border-bottom-style: dotted;
+  border-bottom-width:2px;
+  display:block;
+  width:50px;
+  margin: 0 auto;
 }
 
 .site-main .subscribe-us-area .subscribe form .input-textbox input{
