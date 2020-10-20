@@ -241,10 +241,6 @@ html, body{
 
 /* About Me */ 
 
-.site-main .about-area .about-title p {
-  padding: 1rem 7rem;
-}
-
 .site-main .about-area .client {
   background: #ffffff10;
   box-shadow: var(--box-shadow);
